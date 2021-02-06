@@ -1,0 +1,18 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: Kotlin Problem Test API
+  license:
+    name: MIT
+paths:
+  /foo:
+    get:
+      summary: Foo
+      description: Bar
+      responses:
+        200:
+          description: Bar Bar
+          content:
+            application/json:
+              schema:
+                type: string
